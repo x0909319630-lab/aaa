@@ -44,3 +44,15 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+.clubs{
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+background: #ddd;
+padding: 30px;
+border: 1px solid #222;
+border-radius: 12px;
+}
