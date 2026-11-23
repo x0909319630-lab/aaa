@@ -1,7 +1,12 @@
 /* 啟用外層容器的 Grid 引擎 */
-.menu-grid {
-  display: grid;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f7f7f7;
 }
+
 
 .menu-grid {
 display: grid;
@@ -13,3 +18,18 @@ display: grid;
   margin: auto;
   padding: 60px 20px;
 }
+.menu-card {
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  display: block;
+}
+
+.menu-card h3, .menu-card p {
+  padding: 0 20px;
+}
+
